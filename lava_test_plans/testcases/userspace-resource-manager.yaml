@@ -1,0 +1,8 @@
+{% extends "testcases/templates/master.jinja2" %}
+
+{% set test_name = "userspace-resource-manager" %}
+{% set test_timeout = 90 %}
+
+{% set all_tests = [
+    {"name": "userspace-resource-manager", "path": "Runner/suites/Performance/userspace-resource-manager/userspace-resource-manager.yaml", "expected": ["userspace-resource-manager"]}
+] %}
