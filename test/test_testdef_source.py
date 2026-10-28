@@ -28,9 +28,9 @@ VARIABLES = "projects/meta-qcom/variables.yaml"
 TESTCASE = "pre-merge-basic.yaml"
 
 GITHUB_REPO = "https://github.com/qualcomm-linux/qcom-linux-testkit/"
-TAG = "testkit-2026.08.14"
+TAG = "testkit-2026.10.04"
 # the commit refs/tags/<TAG>^{} points at, i.e. what a clone checks out
-TAG_SHA = "010afe5f667c8f876d450c856996ba09aa0353b9"
+TAG_SHA = "bae1de969d17ede3dab35269b1d9f14f9340d8bf"
 ARCHIVE_URL = (
     "https://github.com/qualcomm-linux/qcom-linux-testkit/archive/%s.tar.gz" % TAG_SHA
 )
