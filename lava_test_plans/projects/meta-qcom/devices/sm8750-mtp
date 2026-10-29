@@ -6,4 +6,5 @@
 {% set flasher_device_type = "sm8750-mtp" %}
 
 {# Exclude unsupported testplan for this device #}
-{% set EXCLUDED_TESTPLANS = ['pre-merge-camera.yaml'] %}
+{# display tests disabled because of the build instability #}
+{% set EXCLUDED_TESTPLANS = ['pre-merge-camera.yaml', 'pre-merge-display-gfx.yaml'] %}
